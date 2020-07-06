@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.addictcontrol.ControlActivity">
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/noInternet"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="#99000000">-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Anda tidak tersambung ke internet"-->
+            <!--android:padding="16dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="#fff"/>-->
+        <!---->
+        <!--<ImageButton-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp" -->
+            <!--android:background="@drawable/ic_refresh_whitek_24dp"/>-->
+        <!---->
+    <!--</LinearLayout>-->
+    <!---->
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

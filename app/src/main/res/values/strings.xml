@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Addict Control</string>
+    <string name="permission_message">You need to grant access to usage stats\n GRANT PERMISSION</string>
+    <string name="last_time_used_never">Penggunaan Aplikasi : </string>
+    <string name="last_time_used">Penggunaan Aplikasi : </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="avatar_button_description">set avatar in Circle Image View</string>
+    <string name="value_username">Ikbal Toriq</string>
+    <string name="text_edit">Edit</string>
+
+    <string name="text_quote">Quote Saya</string>
+    <string name="text_add_quotes">Tambah Quotes</string>
+    <string name="hint_edit">tambah</string>
+    <string name="reset_text_button">Reset</string>
+
+    <string name="make_profile">Buat Profil</string>
+    <string name="image_button_description">to change avatar in circle image view</string>
+    <string name="hint_username">Nama User</string>
+    <string name="text_add_button">Buat</string>
+
+    <string name="text_username">Nama User</string>
+    <string name="edit_text_username">Nama User</string>
+    <string name="text_password">Password</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="edit_text_password">password</string>
+    <string name="text_button_save">Simpan</string>
+    <string name="text_add_schedule">Tambah Kegiatan</string>
+    <string name="edit_text_add">tambah</string>
+    <string name="text_day">Hari</string>
+    <string name="default_day">Senin</string>
+    <string name="text_button_start">Mulai</string>
+    <string name="text_button_end">Akhir</string>
+    <string name="text_default_time">00:00</string>
+    <string name="text_info">Aktifkan Setiap Minggu</string>
+    <string name="text_button_reset">Reset</string>
+    <string name="add_text_button">Tambah</string>
+    <string name="text_edit_button">Edit</string>
+    <string name="text_delete_button">Hapus</string>
+    <string name="delete_message">Apakah anda yakin ?</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_quotes">Quotes</string>
+    <string name="tab_account">Profile</string>
+    <string name="current_tab">current_tab</string>
+    <string name="set_my_quote">Atur Sebagai Quoteku</string>
+    <!-- -->
+
+
+    <!-- Default Quotes -->
+    <string-array name="default_quotes">
+        <item> Berjuang terus tanpa henti </item>
+        <item> Kuatkan dirimu </item>
+        <item> Selalu Happy dalam menghadapi dunia </item>
+        <item> Perjuanganmu masih belum berakhir </item>
+    </string-array>
+
+    <!-- Days -->
+    <string-array name="days">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+
+
+    <string-array name="type_chart">
+        <item>Hari ini</item>
+        <item>Mingu terakhir</item>
+        <item>Bulan Terakhir</item>
+    </string-array>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_update">Update</string>
+    <string name="text_edit_username">Edit Username</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_choose_avatar">Pilih Avatar</string>
+    <string name="choose_avatar">Pilih Avatar</string>
+    <string name="key_quote">quote</string>
+    <string name="text_add">Tambah</string>
+    <string name="key_id">id</string>
+    <string name="key_name">name</string>
+    <string name="key_day">day</string>
+    <string name="key_start">start</string>
+    <string name="key_end">end</string>
+    <string name="key_active">active</string>
+    <string name="key_current_tab">current_tab</string>
+    <string name="set_time_title">Set Time</string>
+    <string name="regex">:</string>
+    <string name="text_choose_days">Pilih Hari</string>
+    <string name="succes_message">succes di buat</string>
+    <string name="out_of_day_message">jadwal yang anda buat melampui hari</string>
+    <string name="schedule_collision_title">Jadwal Bentrok</string>
+    <string name="text_none" />
+    <string name="default_start_time">06:00</string>
+    <string name="default_end_time">07:00</string>
+    <string name="message_error">Maaf,beberapa quotes tidak tampil karena koneksi terputus</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Account</string>
+
+
+    <string name="pref_title_display_name">Name</string>
+    <string name="pref_title_display_pass">Pass</string>
+    <string name="pref_title_display_id">Id</string>
+    <string name="pref_default_display_name">Dummy</string>
+    <string name="pref_default_display_pass">Dummy</string>
+    <string name="pref_default_display_id">Dummy</string>
+
+    <string name="pref_theme_names">Themes</string>
+    <string-array name="pref_example_list_titles">
+        <item>Black</item>
+        <item>White</item>
+        <item>Silver</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">About</string>
+
+    <string name="pref_title_email">Email</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+    <string name="time_span">"Time span: "</string>
+    <string name="explanation_access_to_appusage_is_not_enabled">Failed to retrieve app usage
+        statistics. You may need to enable access
+        for this app through Settings > Security > Apps with usage access
+    </string>
+
+</resources>

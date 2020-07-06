@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageAccount"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Ikbal Toriq"
+        android:id="@+id/username"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="0:0:0"
+        android:id="@+id/smartphoneOn"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        tools:text="0:0:0"
+        android:id="@+id/emot"
+        android:src="@drawable/ic_sentiment_satisfied_green_24dp"
+
+        android:padding="10dp"/>
+
+
+
+</LinearLayout>

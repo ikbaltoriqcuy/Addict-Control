@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.d3ifcool.addictcontrol.LockActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lockscreenback"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageButton
+        android:background="@drawable/ic_close_red_24dp"
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close"
+        android:onClick="Close"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:layout_centerVertical="true"
+        android:padding="45dp">
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:text = "Selalu Berjuang Apapun Yang Terjadi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/message_text_view"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text = "Quote:
+             Hidup itu cuma sekali jadi jangan disiasiakan"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/schedule_text_view"
+            android:layout_marginTop="20dp"
+            tools:ignore="UnusedAttribute" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

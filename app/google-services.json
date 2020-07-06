@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "229451603059",
+    "firebase_url": "https://addictcontrol-72eb4.firebaseio.com",
+    "project_id": "addictcontrol-72eb4",
+    "storage_bucket": "addictcontrol-72eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229451603059:android:8c14f53c89dd46e1",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.addictcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229451603059-mi2ij0ocjnfisrealvmnq4nb8fi0n7gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.addictcontrol",
+            "certificate_hash": "14d4dd7cd8f2548791dfeb5c04d1e05a748074dc"
+          }
+        },
+        {
+          "client_id": "229451603059-dd1ac97dvkriccla07h91i939138cm6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHdFYncu69YKKk1WiEfaYEDs8z7LQKyk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229451603059-dd1ac97dvkriccla07h91i939138cm6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

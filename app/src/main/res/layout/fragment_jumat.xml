@@ -1,0 +1,32 @@
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.d3ifcool.timework.Fragment.Jumat"
+        android:id="@+id/list_item_jumat"
+        android:drawSelectorOnTop="true"/>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/empty"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak ada schedule yang di tampilkan"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

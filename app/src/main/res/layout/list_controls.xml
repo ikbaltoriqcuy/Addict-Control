@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageAccount"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Ikbal Toriq"
+        android:id="@+id/username"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linear_button">
+
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="Terima"
+            android:textColor="#fff"
+            android:background="#bbff28"
+            android:id="@+id/accept"/>
+
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="Batal"
+            android:textColor="#fff"
+            android:background="#ff282c"
+            android:id="@+id/no_accept" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
