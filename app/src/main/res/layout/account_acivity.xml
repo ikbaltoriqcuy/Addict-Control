@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_margin="16dp"
         android:padding="8dp">
 
         <RelativeLayout
@@ -151,8 +152,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/back_edittext">
+                android:layout_marginTop="10dp">
 
                 <Button
                     android:layout_width="match_parent"
@@ -160,6 +160,7 @@
                     android:text="LogOut"
                     android:background="#ff593b"
                     android:textColor="#fff"
+                    android:layout_marginTop="80dp"
                     android:onClick="LogOut"/>
             </RelativeLayout>
 
